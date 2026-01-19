@@ -65,6 +65,6 @@
   };
 
   flake.overlays.default = _self: super: {
-    stm-openocd = config.flake.packages.${super.system}.default;
+    stm-openocd = config.flake.packages.${super.stdenv.hostPlatform.system}.default;
   };
 }
