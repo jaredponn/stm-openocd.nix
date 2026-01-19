@@ -5,5 +5,5 @@ OpenOCD](https://github.com/STMicroelectronics/OpenOCD).
 
 ## Getting started
 
-This provides a default overlay which includes the package `stm-openocd` which
-is STM's version of OpenOCD.
+This provides a default overlay which includes the package `stm-openocd` that
+is a derivation for STM's version of OpenOCD.
