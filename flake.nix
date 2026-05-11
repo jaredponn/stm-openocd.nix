@@ -11,7 +11,7 @@
 
     # STM firmware dependencies
     stm-openocd = {
-      url = "git+https://github.com/STMicroelectronics/OpenOCD?ref=openocd-cubeide-r6&submodules=1";
+      url = "git+https://github.com/STMicroelectronics/OpenOCD?ref=openocd-cubeide-r7&submodules=1";
       flake = false;
     };
   };
